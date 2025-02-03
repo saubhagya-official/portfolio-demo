@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    color:black;
+    width: 100%;
+}
+
+#navbar{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Montserrat;
+    color: #333333;
+    margin-left: 375px;
+    margin-right: 375px;
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 20px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.logo{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.routes{
+    margin: 505px;
+    display: flex;
+}
+
+.routes a{
+    text-decoration: none;
+    color: black;
+    padding-left: 70px;
+
+}
