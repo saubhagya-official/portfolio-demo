@@ -141,3 +141,8 @@ body{
     height: 250px;
     width: 400px;
 }
+
+.effect1:hover{
+    background: #333333;
+    color:#ffffff;
+}
