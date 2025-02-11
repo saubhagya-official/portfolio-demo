@@ -87,25 +87,29 @@ body{
     flex-direction: row;
     justify-content: center;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
+    
     #About-Us{
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
+        display:flex;
+        flex-direction: column;
     }
 }
 
 .title{
     display: flex;
+    flex-direction: row;
     font-weight:600;
     font-size: 2rem;
     font-family: Montserrat;
     color: #333333;
-    justify-items: center;
     margin-left:20rem;
 }
 
 @media only screen and (max-width: 768px) {
     .title {
+        
      font-size: 1.5rem;
      margin-left: 0;
      text-align: center;
@@ -150,16 +154,17 @@ body{
     border:2px solid #333333;
 }
 #project-section{
-    height: 90vh;
+    min-height: 90vh;
     background-color: #f7fbff;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 @media only screen and (max-width: 768px) {
     #project-section{
-        height: auto;
+    min-height: auto;
     background-color: #f7fbff;
     display: flex;
     flex-direction: column;
@@ -222,7 +227,7 @@ body{
     font-family: Montserrat;
     color: #333333;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     .heading3{
         display: flex;
         flex-direction:column ;
@@ -240,6 +245,15 @@ body{
     justify-content: center;
     align-items: center;
     display: flex;
-    flex-direction: column;
-  
+    flex-direction: column; 
+}
+
+@media only screen and (max-width: 768px) {
+    .heading{
+        display: flex;
+        flex-direction:column ;
+        align-self: center;
+        justify-items: center;
+        font-size: 2rem;
+    }
 }
