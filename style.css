@@ -9,45 +9,52 @@ body{
     color:black;
     width: 100%;
 }
-
-#navbar{
+#navbar {
     font-weight: 500;
     font-size: 1rem;
-    font-family: Montserrat;
-    color: #333333;
-    margin-left: 23.45rem;
-    margin-right: 23.45rem;
+    font-family: Montserrat, sans-serif;
+    color: #333;
     height: 6rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    box-shadow: 1.25rem;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding: 1rem 2rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.logo{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+.routes {
+    display: flex;
+    gap: 2rem;
+}
+
+.routes a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.hamburger {
+    display: none; 
+    font-size: 2rem;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {
-.logo{
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-}
-.routes{
-    margin: 31.5rem;
-    display: flex;
+    .hamburger {
+        display: block; 
+    }
+
+    .routes {
+        display: none; 
+    }
 }
 
-.routes a{
-    text-decoration: none;
-    color: black;
-    padding-left: 4.25rem;
-
-}
 
 #hero-banner{
     background: url("./assets/web-design-training-assignment/images/hero-banner.jpg");
